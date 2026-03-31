@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "automate.ch - KI-Assistent fuer Handwerker & Frontline-Teams",
+  title: "automate.ch - AI Assistant for Tradespeople & Frontline Teams",
   description:
-    "Der KI-Assistent, der Handwerkern und Frontline-Teams den Ruecken freihaelt. Terminbuchung, Offerten, Kundenkommunikation - automatisch.",
+    "The AI assistant that has your back. Appointment booking, quotes, customer communication - automated. For plumbers, electricians, restaurants, and trades in Switzerland.",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="de">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );
